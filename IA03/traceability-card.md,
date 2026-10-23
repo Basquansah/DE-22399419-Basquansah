@@ -1,0 +1,13 @@
+IA03 | Use-Case-to-Story Traceability Card
+1. Use-Case Card: UC-01 (Place Remote Order with Delivery Calculation)
+Actor: Customer | Goal: Remote order creation with automated fee calculation.
+Main Success Flow: Customer browses menu $ ightarrow$ Selects Delivery $ ightarrow$ Enters distance (5
+km) $ ightarrow$ System computes formula $ ightarrow$ Displays itemized breakdown $ ightarrow$ Selects
+MoMo payment $ ightarrow$ Order sent to kitchen queue.
+2. Traceability & Request Flow
+Traceability Chain: Requirement FR3 $ ightarrow$ Use Case UC-01 $ ightarrow$ User Story US-01 $
+ightarrow$ NFR2 (Performance) $ ightarrow$ GitHub Issue #1 $ ightarrow$ Test `TST-02` (View Issue #1).
+Request Flow Reasoning: Mobile browser $ ightarrow$ Vercel Edge $ ightarrow$ Next.js Route (`/api/
+orders`) $ ightarrow$ Supabase PostgreSQL database $ ightarrow$ JSON response.
+Declaration: I understand the use case, story, acceptance criteria and traceability links submitted here, and
+I can explain them orally if called upon.
