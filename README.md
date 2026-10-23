@@ -1,5 +1,4 @@
 # DE-IND-Basquansah - Individual Portfolio Evidence Index
-Student ID: 22399419
 
 This repository contains sanitized evidence for sections IA01 through IA10.
 - [IA01 Explanation](IA01/explanation.md)
